@@ -1,0 +1,257 @@
+table{
+    border-collapse: collapse;
+    border: 3px solid #000;
+    margin-left: 120px;
+    margin-top: 25px;
+    font-family: "Times New Roman";
+    font-size: 12pt;
+}
+td,th{
+    padding: 5px;
+    border: 2px solid #000;
+    height: 25px;
+}
+.reportName{
+    font-family: "Times New Roman";
+    font-size: 16pt;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    word-wrap: break-word;
+
+}
+.headerReg{
+    margin-left: 30px;
+    font-family: "Times New Roman";
+    font-size: 12pt;
+    padding-right: 20px;
+    text-align: left;
+    }
+.headerPO{
+    width: 100px;
+    padding: 10px;
+    float: right;
+}
+.footerRegUP{
+    margin-top: 45px;
+       width: 1000px;
+    padding-right: 10px;
+     margin-left: 100px;
+     font-family: "Times New Roman";
+     font-size: 12pt;
+ }
+.footerRegDown{
+
+    margin-left: 100px;
+    width: 1000px;
+    font-family: "Times New Roman";
+    padding-right: 10px;
+    font-size: 10pt;
+    position: relative;
+   top: -15px;
+}
+header {
+    margin: 0;
+}
+
+.dws-menu * {
+    margin: 0;
+    padding: 0;
+}
+
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+
+.dws-menu > ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dws-menu > ul li {
+    position: relative;
+    border-right: 1px solid #c7c8ca;
+}
+
+.dws-menu > ul li:first-child {
+    border-left: 1px solid #b2b3b5;
+}
+
+.dws-menu > ul li:last-child {
+    border-right: 1px solid #babbbd;
+}
+
+.dws-menu > ul li > a i.fa {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+}
+
+.dws-menu > ul li a {
+    display: block;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9c9c9+0,f6f6f6+2,c4c5c7+98,757577+100;Custom+3 */
+    background: rgb(201, 201, 201); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(201, 201, 201, 1) 0%, rgba(246, 246, 246, 1) 2%, rgba(196, 197, 199, 1) 98%, rgba(117, 117, 119, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(201, 201, 201, 1) 0%, rgba(246, 246, 246, 1) 2%, rgba(196, 197, 199, 1) 98%, rgba(117, 117, 119, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(201, 201, 201, 1) 0%, rgba(246, 246, 246, 1) 2%, rgba(196, 197, 199, 1) 98%, rgba(117, 117, 119, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9c9c9', endColorstr='#757577', GradientType=0); /* IE6-9 */
+
+    padding: 15px 30px 15px 40px;
+    font-size: 14px;
+    color: #454547;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.dws-menu li a:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0e1e5+0,454547+2,454547+98,e0e1e5+100 */
+    background: rgb(224, 225, 229); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(224, 225, 229, 1) 0%, rgba(69, 69, 71, 1) 2%, rgba(69, 69, 71, 1) 98%, rgba(224, 225, 229, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(224, 225, 229, 1) 0%, rgba(69, 69, 71, 1) 2%, rgba(69, 69, 71, 1) 98%, rgba(224, 225, 229, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(224, 225, 229, 1) 0%, rgba(69, 69, 71, 1) 2%, rgba(69, 69, 71, 1) 98%, rgba(224, 225, 229, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e0e1e5', endColorstr='#e0e1e5', GradientType=0); /* IE6-9 */
+
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+/*sub menu*/
+.dws-menu li ul {
+    position: absolute;
+    min-width: 300px;
+    display: none;
+}
+
+.dws-menu li > ul li {
+    border: 1px solid #c7c8ca;
+}
+
+.dws-menu li > ul li a {
+    padding: 10px;
+    text-transform: none;
+    background: #e4e4e5;
+}
+
+.dws-menu li > ul li ul {
+    position: absolute;
+    right: -300px;
+    top: 0;
+}
+
+.dws-menu li:hover > ul {
+    display: block;
+}
+
+body {
+    background: #E8EEF0 url(bg.gif);
+}
+
+#loginForm {
+    width: 290px;
+    padding: 24px 24px 0;
+    margin: 200px auto 0;
+    background: #FEFEFE;
+    border: 1px solid #CAD8DE;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+    font: 14px/18px Arial, Tahoma, sans-serif;
+    color: #444;
+}
+
+#loginForm .field {
+    margin: 0 0 18px;
+}
+
+#loginForm .field label {
+    display: block;
+    margin: 0 0 11px;
+}
+
+#loginForm .field .input {
+    border-radius: 4px;
+}
+
+#loginForm .field input {
+    font: 16px Arial, Tahoma, sans-serif;
+    color: #444;
+    width: 262px;
+    padding: 9px 13px;
+    border: 1px solid #D2D9DC;
+    border-radius: 3px;
+    box-shadow: inset 2px 2px 6px #EBEBEB, 0 0 0 5px #F7F9FA;
+    outline: none;
+}
+
+#loginForm .field input:focus {
+    border-color: #B7D4EA;
+    box-shadow: inset 2px 2px 6px #EBEBEB, 0 0 4px #D0E6F6, 0 0 0 5px #F2F8FC;
+}
+
+#forgot {
+    float: right;
+    font-size: 11px;
+    color: #ababab;
+    text-decoration: none;
+    margin: 0;
+}
+
+#forgot:hover {
+    color: #444;
+    text-decoration: underline;
+}
+
+#loginForm .submit {
+    overflow: hidden;
+    margin: 30px -24px 0;
+    padding: 22px 24px;
+    background: #F0F5F7;
+    border-top: 1px solid #DDE0E8;
+    border-radius: 0 0 4px 4px;
+    box-shadow: inset 0 1px #FFF, inset -1px -1px #F7FAFB, inset 1px 0 #F7FAFB;
+    font-size: 11px;
+}
+
+#remember {
+    display: block;
+    margin: 5px 0 0;
+    cursor: pointer;
+}
+
+#remember input {
+    margin: 0 4px 0 0;
+    vertical-align: middle;
+}
+
+#loginForm .submit button {
+    float: right;
+    padding: 6px 20px;
+    height: 30px;
+    border-top: 1px solid #98CCE7;
+    border-bottom: 1px solid #7DB0CC;
+    border-left: 1px solid #8CBFD9;
+    border-right: 1px solid #8CBFD9;
+    border-radius: 15px;
+    color: #FFF;
+    font: bold 13px Arial, Tahoma, sans-serif;
+    box-shadow: inset 0 1px #D4EBF7, 0 1px 3px #B8BEBE;
+    background: -moz-linear-gradient(top, #badff3 0%, #7acbed 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #badff3), color-stop(100%, #7acbed));
+    background: -webkit-linear-gradient(top, #badff3 0%, #7acbed 100%);
+    background: -o-linear-gradient(top, #badff3 0%, #7acbed 100%);
+    background: -ms-linear-gradient(top, #badff3 0%, #7acbed 100%);
+    background: linear-gradient(top, #badff3 0%, #7acbed 100%);
+    background-color: #9FD7F0;
+    cursor: pointer;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+#loginForm .submit button::-moz-focus-inner {
+    border: 0
+}
